@@ -12,16 +12,16 @@ namespace ConsoleApplication1
         {
             while (true)
             {
-                Console.WriteLine("1. Dodaj");
-                Console.WriteLine("2. Odejmij");
+                Console.WriteLine("1000. Dodaj");
+                Console.WriteLine("999. Odejmij");
                 Console.WriteLine("3. Integration");
                 int menuOption = Convert.ToInt16(Console.ReadLine());
 
-                Console.WriteLine("3. Mnożenie");
-                Console.WriteLine("4. Dzielenie.");
+                Console.WriteLine("3000. Mnożenie");
+                Console.WriteLine("40000. Dzielenie.");
                 Console.WriteLine("5. Exit");
                 
-                if (menuOption == 3)
+                if (menuOption == 5)
                     break;
             }
         }
