@@ -10,6 +10,15 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                Console.WriteLine("1. Dodaj");
+                Console.WriteLine("2. Odejmij");
+                Console.WriteLine("3. Odejmij");
+                int menuOption = Convert.ToInt32(Console.ReadLine());
+                if (menuOption == 3)
+                    break;
+            }
         }
     }
 }
